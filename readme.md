@@ -1,4 +1,4 @@
-# Image Restoration Project using PromptIR and Improved SE Module
+# Image Restoration using PromptIR + SE Module
 
 ## Introduction
 
