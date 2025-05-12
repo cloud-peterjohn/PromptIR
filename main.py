@@ -1,15 +1,8 @@
 import os
 import torch
-from torch.utils.data import Dataset, DataLoader, random_split
-from PIL import Image
-import numpy as np
 import pytorch_lightning as pl
-from model import PromptIR
-import torch.nn.functional as F
-from torchvision import transforms
-import random
-
-
+from train import PromptIRLightning
+from datasets import get_dataloaders
 
 
 def main(

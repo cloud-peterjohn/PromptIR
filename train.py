@@ -1,8 +1,15 @@
+import os
+import torch
+import pytorch_lightning as pl
+from model import PromptIR
+import torch.nn.functional as F
+
+
 class PromptIRLightning(pl.LightningModule):
     def __init__(self, lr_max, lr_min, T_max):
         super().__init__()
         self.net = PromptIR(decoder=True)
-        self.loss_fn = torch.nn.L1Loss()
+        self.loss_fn = torch.nn.MSELoss()
         self.lr_max = lr_max
         self.lr_min = lr_min
         self.T_max = T_max
