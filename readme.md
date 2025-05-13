@@ -52,7 +52,7 @@ Please ensure that you update the `model_path` in `test.py` to your trained mode
 
 ## Experimental Results
 
-This project achieved a PSNR of **30.18** on the test set.
+This project achieved a PSNR of **30.69** on the test set.
 
 
 Ping-Yeh Chou 113550901
