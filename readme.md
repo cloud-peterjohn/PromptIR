@@ -1,5 +1,5 @@
 # Image Restoration using PromptIR + SE Module
-
+Ping-Yeh Chou 113550901
 ## Introduction
 
 This project aims to restore images degraded by rain and snow using a single model. We utilize the PromptIR model combined with an improved SE (Squeeze-and-Excitation) module to enhance restoration performance.
@@ -53,6 +53,7 @@ Please ensure that you update the `model_path` in `test.py` to your trained mode
 ## Experimental Results
 
 This project achieved a PSNR of **30.69** on the test set.
+![image](https://github.com/user-attachments/assets/a117865c-df49-4baf-9a55-f212240be5a9)
 
 
-Ping-Yeh Chou 113550901
+
