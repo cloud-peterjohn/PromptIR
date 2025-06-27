@@ -49,10 +49,5 @@ python test.py
 ```
 Please ensure that you update the `model_path` in `test.py` to your trained model's path. Test results will be saved in `results/pred.npz`, and the visualization image will be saved in `results/visualization.svg`.
 
-## Experimental Results
-
-This project achieved a PSNR of **30.69** on the test set.
-![image](https://github.com/user-attachments/assets/a117865c-df49-4baf-9a55-f212240be5a9)
-
 
 
